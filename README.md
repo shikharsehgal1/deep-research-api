@@ -1,19 +1,12 @@
 # Deep Research API
 
-A FastAPI-based service for semantic (RAG) document search. This project indexes documents with local embeddings (Hugging Face) and allows you to query them via a REST API.
-
-## Features
-
-- **Document Indexing**: `POST /documents/` to store new documents in the vector store  
-- **Semantic Search**: `POST /search/` to retrieve the most relevant documents for a given query  
-- **Local Embeddings**: Uses Hugging Face sentence-transformers instead of OpenAI (no API key needed)  
-- **ChromaDB**: Stores embeddings locally in the `chroma_db` folder  
+FastAPI service for RAG document search. Uses local embeddings (Hugging Face) since I had no OpenAI credits.
 
 ## Installation
 
 1. **Clone or Download** this repo
 2. **Create a Virtual Environment**
-3. **Install Dependencies**
+3. **Install Dependencies (included)**
 
 ## Running Locally
 
